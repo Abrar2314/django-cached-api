@@ -23,14 +23,13 @@ Timeout: 5 minutes (300 seconds)
 
 Performance Improvement
 
-Using caching significantly reduces the response time. Example measurements using curl:
-time curl http://127.0.0.1:8000/api/items/
+Using caching significantly reduces the response time. 
 real    0m0.024s
 user    0m0.008s
 sys     0m0.010s
 
 With Cache (after first request)
-time curl http://127.0.0.1:8000/api/items/
+
 real    0m0.013s
 user    0m0.006s
 sys     0m0.004s
