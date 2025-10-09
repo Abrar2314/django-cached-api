@@ -1,14 +1,6 @@
 Django Cached API
 
-        This is a Django REST API project demonstrating caching to improve performance when fetching data from a database.
-
-Features
-
-        Django REST API endpoints for items:
-        
-        GET /api/items/ → List all items (paginated)
-        
-        GET /api/items/<id>/ → Get a single item by ID
+        This is a Django REST API project demonstrating caching to improve performance when fetching data from a database
         
         Caching implemented using Django's LocMemCache
         
